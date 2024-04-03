@@ -1,0 +1,19 @@
+.banner-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	overflow: hidden;
+	width: 100%;
+	height: auto;
+	max-height: 20vh;
+}
+
+.banner-image {
+	width: 100%;
+	max-height: auto;
+	object-fit: contain;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
